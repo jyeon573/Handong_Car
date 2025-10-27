@@ -109,7 +109,6 @@ function Card({data, onDelet}){
             <button onClick={()=>onDelet(item.post_id)}><FaTrash/></button>
             </div>
           </div>
-          
           <div className="card-info">
             <p><FaUser /> {item.host_nickname}</p>
             <p><FaMapMarkerAlt /> {item.start_point} → {item.destination}</p>
