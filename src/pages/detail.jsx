@@ -18,6 +18,7 @@ const PageWrap = styled.div`
   margin: 0 auto; 
 `;
 
+
 const LeftPage = styled.div`
   width: 100%;
   flex: 1;
